@@ -1,0 +1,46 @@
+openapi: 3.1.0
+info:
+  title: ULTRON Obsidian Sovereign Vault API
+  description: Connects ChatGPT Web directly to the local Obsidian knowledge graph and unified memory.
+  version: 1.0.0
+paths:
+  /api/vault/recall:
+    get:
+      summary: Recall notes, concepts, and directives from Obsidian
+      operationId: recallVaultMemory
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search term or concept to recall
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Relevant memory notes and snippets
+          content:
+            application/json:
+              schema:
+                type: object
+  /api/vault/graph:
+    get:
+      summary: Get graph telemetry and central concepts
+      operationId: getVaultGraph
+      responses:
+        '200':
+          description: Knowledge graph telemetry
+          content:
+            text/plain:
+              schema:
+                type: string
+  /api/vault/pack:
+    get:
+      summary: Fetch complete sovereign knowledge pack
+      operationId: getKnowledgePack
+      responses:
+        '200':
+          description: Complete markdown knowledge pack
+          content:
+            text/markdown:
+              schema:
+                type: string

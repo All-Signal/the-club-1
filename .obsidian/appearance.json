@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 15,
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "accentColor": "#bd00ff",
+  "enabledCssSnippets": [
+    "ultron-cybernetic"
+  ]
+}

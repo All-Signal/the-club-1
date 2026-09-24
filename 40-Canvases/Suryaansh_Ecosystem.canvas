@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "id": "center-node",
+      "type": "file",
+      "file": "10-Episodic/2026-09-24.md",
+      "x": 400,
+      "y": 300,
+      "width": 340,
+      "height": 220,
+      "color": "2"
+    }
+  ],
+  "edges": []
+}

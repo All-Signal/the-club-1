@@ -1,0 +1,15 @@
+# Obsidian workspace & UI layout caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/plugins/obsidian-git/obsidian_askpass.sh
+
+# Local AI embeddings & temporary environment
+.smart-env/
+.claude/
+
+# Temporary / OS files
+.DS_Store
+*.tmp
+*.crswap

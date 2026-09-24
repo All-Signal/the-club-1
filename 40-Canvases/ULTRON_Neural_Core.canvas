@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"node-hub","type":"text","text":"## ⚡ ULTRON NEURAL CORE\n**Sovereign Cognitive Bus**\n- Unified Memory State: **SYNCHRONIZED**\n- Dynamic Knowledge Graph: **ACTIVE**\n- Protocol: **Model Context Protocol (MCP)**\n- Visual Ground Truth: **Obsidian Peak**","x":300,"y":200,"width":380,"height":220,"color":"5"},
+		{"id":"node-hardware","type":"file","file":"00-Core/Hardware_Telemetry_Matrix.md","x":780,"y":-120,"width":360,"height":260,"color":"3"},
+		{"id":"node-agents","type":"file","file":"00-Core/AI_Agent_Federation.md","x":-160,"y":-120,"width":380,"height":260,"color":"6"},
+		{"id":"node-uca","type":"file","file":"20-Concepts/Unified_Cognitive_Architecture.md","x":-160,"y":500,"width":380,"height":260,"color":"5"},
+		{"id":"node-btkg","type":"file","file":"20-Concepts/Bi-Temporal_Knowledge_Graphs.md","x":300,"y":500,"width":380,"height":260,"color":"2"},
+		{"id":"node-mcp","type":"file","file":"20-Concepts/Model_Context_Protocol.md","x":780,"y":500,"width":360,"height":260,"color":"1"},
+		{"id":"node-operator","type":"file","file":"00-Core/Operator_Profile.md","x":340,"y":-480,"width":340,"height":240,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge-operator-hub","fromNode":"node-operator","fromSide":"bottom","toNode":"node-hub","toSide":"top","label":"commands & guides"},
+		{"id":"edge-agents-hub","fromNode":"node-agents","fromSide":"right","toNode":"node-hub","toSide":"left","label":"federates into"},
+		{"id":"edge-hub-hardware","fromNode":"node-hub","fromSide":"right","toNode":"node-hardware","toSide":"left","label":"telemetry feedback"},
+		{"id":"edge-hub-uca","fromNode":"node-hub","fromSide":"bottom","toNode":"node-uca","toSide":"top","label":"governed by"},
+		{"id":"edge-hub-btkg","fromNode":"node-hub","fromSide":"bottom","toNode":"node-btkg","toSide":"top","label":"temporal indexing"},
+		{"id":"edge-hub-mcp","fromNode":"node-hub","fromSide":"bottom","toNode":"node-mcp","toSide":"top","label":"exposes via"}
+	]
+}

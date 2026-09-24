@@ -1,0 +1,198 @@
+/* ==========================================================================
+   ⚡ ULTRON CYBERNETIC OBSIDIAN THEME SNIPPET
+   Pitch Black Base (#000000) // High-Energy Glowing Accents // Glassmorphism
+   ========================================================================== */
+
+:root {
+  --font-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-text: 'Inter', 'Outfit', system-ui, sans-serif;
+  --font-interface: 'Inter', 'Outfit', system-ui, sans-serif;
+
+  /* Dynamic Cybernetic Accent (Synced with ultron-theme) */
+  --ultron-cyan: #00f0ff;
+  --ultron-cyan-glow: rgba(0, 240, 255, 0.45);
+  --ultron-cyan-subtle: rgba(0, 240, 255, 0.12);
+  --ultron-bg: #000000;
+  --ultron-surface: #0a0c10;
+  --ultron-surface-card: #0f1318;
+  --ultron-border: rgba(0, 240, 255, 0.25);
+  --ultron-border-active: #00f0ff;
+}
+
+/* Base Pitch Black Canvas */
+.theme-dark {
+  --background-primary: var(--ultron-bg) !important;
+  --background-primary-alt: var(--ultron-surface) !important;
+  --background-secondary: var(--ultron-surface) !important;
+  --background-secondary-alt: #050608 !important;
+  --background-modifier-border: var(--ultron-border) !important;
+  --interactive-accent: var(--ultron-cyan) !important;
+  --interactive-accent-hover: #33f3ff !important;
+  --text-accent: var(--ultron-cyan) !important;
+  --text-accent-hover: #33f3ff !important;
+}
+
+/* Sleek Workspace Panels & Glassmorphic Borders */
+.workspace-split.mod-horizontal,
+.workspace-split.mod-vertical {
+  background-color: var(--ultron-bg);
+}
+
+.workspace-leaf-content {
+  border: 1px solid rgba(0, 240, 255, 0.08);
+}
+
+.workspace-tab-header.is-active {
+  color: var(--ultron-cyan) !important;
+  border-bottom: 2px solid var(--ultron-cyan) !important;
+  box-shadow: 0 2px 8px var(--ultron-cyan-glow);
+  background: var(--ultron-cyan-subtle) !important;
+}
+
+/* Cybernetic Graph View Glow */
+.graph-view.color-fill {
+  color: var(--ultron-cyan);
+}
+.graph-view.color-line {
+  color: rgba(0, 240, 255, 0.2);
+}
+.graph-view.color-text {
+  color: #a0aec0;
+}
+
+/* Headings with Sci-Fi Underline & Cybernetic Accents */
+.markdown-rendered h1,
+.cm-header-1 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid var(--ultron-border);
+  padding-bottom: 0.35rem;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.3);
+}
+
+.markdown-rendered h2,
+.cm-header-2 {
+  color: var(--ultron-cyan) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
+  text-shadow: 0 0 8px var(--ultron-cyan-glow);
+}
+
+.markdown-rendered h3,
+.cm-header-3 {
+  color: #d1d5db !important;
+  font-weight: 600 !important;
+}
+
+/* Codeblocks with Cybernetic Terminal Aesthetic */
+.markdown-rendered pre,
+.cm-s-obsidian pre.HyperMD-codeblock {
+  background-color: #07090c !important;
+  border: 1px solid var(--ultron-border) !important;
+  border-left: 3px solid var(--ultron-cyan) !important;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* Wikilinks & Internal Links */
+.cm-s-obsidian span.cm-hmd-internal-link,
+.markdown-rendered a.internal-link {
+  color: var(--ultron-cyan) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px dotted rgba(0, 240, 255, 0.4);
+}
+
+.markdown-rendered a.internal-link:hover {
+  text-shadow: 0 0 8px var(--ultron-cyan);
+  border-bottom: 1px solid var(--ultron-cyan);
+}
+
+/* Dataview Dynamic Tables & Cards */
+.dataview.table-view-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--ultron-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--ultron-surface);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dataview.table-view-table th {
+  background: #0d1117;
+  color: var(--ultron-cyan);
+  font-family: var(--font-monospace);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--ultron-border);
+  padding: 8px 12px;
+}
+
+.dataview.table-view-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.08);
+  font-size: 0.9rem;
+}
+
+.dataview.table-view-table tr:hover td {
+  background: var(--ultron-cyan-subtle);
+  transition: background 0.15s ease;
+}
+
+/* Custom ULTRON Callouts */
+.callout[data-callout="ul-core"] {
+  --callout-color: 0, 240, 255;
+  background-color: rgba(0, 240, 255, 0.08);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+}
+
+.callout[data-callout="ul-telemetry"] {
+  --callout-color: 0, 255, 102;
+  background-color: rgba(0, 255, 102, 0.08);
+  border: 1px solid rgba(0, 255, 102, 0.4);
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.15);
+}
+
+.callout[data-callout="ul-voice"] {
+  --callout-color: 189, 0, 255;
+  background-color: rgba(189, 0, 255, 0.08);
+  border: 1px solid rgba(189, 0, 255, 0.4);
+  box-shadow: 0 0 15px rgba(189, 0, 255, 0.15);
+}
+
+.callout[data-callout="ul-mission"] {
+  --callout-color: 255, 0, 60;
+  background-color: rgba(255, 0, 60, 0.08);
+  border: 1px solid rgba(255, 0, 60, 0.4);
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.15);
+}
+
+.callout[data-callout="ul-concept"] {
+  --callout-color: 255, 255, 255;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Status Bar & Ribbon HUD */
+.status-bar {
+  background: #000000 !important;
+  border-top: 1px solid var(--ultron-border) !important;
+  color: #718096 !important;
+  font-family: var(--font-monospace);
+  font-size: 0.78rem;
+}
+
+.side-dock-ribbon {
+  background: #050608 !important;
+  border-right: 1px solid var(--ultron-border) !important;
+}
+
+.side-dock-ribbon-action:hover {
+  color: var(--ultron-cyan) !important;
+}

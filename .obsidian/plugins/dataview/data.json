@@ -1,0 +1,10 @@
+{
+  "enableDataviewJs": true,
+  "enableInlineDataview": true,
+  "enableInlineDataviewJs": true,
+  "enablePlainDataview": true,
+  "maxRecursiveRenderDepth": 4,
+  "tableIdColumnName": "File",
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm:ss"
+}

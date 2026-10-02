@@ -8,6 +8,11 @@
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/OBSIDIAN-UNIFIED%20VAULT-7C3AED?style=for-the-badge&logo=obsidian" alt="Obsidian Vault" /></a>
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/AUDIENCE-AGE%2018--25%20OUTLIERS-00FF66?style=for-the-badge&logo=target" alt="Audience" /></a>
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/PR%20MERGES-RESTRICTED-000000?style=for-the-badge&logo=git" alt="PR Merges" /></a>
+  <a href="https://1.airbornehrs.in"><img src="https://img.shields.io/badge/LIVE%20VAULT-1.AIRBORNEHRS.IN-00F0FF?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Vault" /></a>
+</p>
+
+<p align="center">
+  🌐 <b>Live Interactive Knowledge Graph:</b> <a href="https://1.airbornehrs.in"><b>1.airbornehrs.in</b></a> (24/7 Global Edge CDN)
 </p>
 
 <p align="center">

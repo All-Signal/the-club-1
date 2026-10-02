@@ -18,6 +18,8 @@ Thumbs.db
 *.tmp
 *~
 *.crswap
+Untitled.base
+Untitled*.canvas
 
 # Editor & IDE artifacts
 .vscode/

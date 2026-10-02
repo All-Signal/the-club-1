@@ -11,6 +11,16 @@
       "color": "1"
     },
     {
+      "id": "node_command_center",
+      "type": "file",
+      "file": "00 - Meta & Manifesto/00.07 Command Center.md",
+      "x": 0,
+      "y": -350,
+      "width": 380,
+      "height": 240,
+      "color": "1"
+    },
+    {
       "id": "node_governance",
       "type": "file",
       "file": "00 - Meta & Manifesto/00.02 Governance - The Triumvirate.md",
@@ -112,6 +122,14 @@
     }
   ],
   "edges": [
+    {
+      "id": "edge_root_command",
+      "fromNode": "node_root",
+      "fromSide": "top",
+      "toNode": "node_command_center",
+      "toSide": "bottom",
+      "label": "Live Command Center"
+    },
     {
       "id": "edge_root_gov",
       "fromNode": "node_root",

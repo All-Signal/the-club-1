@@ -49,3 +49,23 @@ clearance: "Public"
 - [[MOC - Divergent Personas]]
 - [[MOC - Outreach Playbooks]]
 - [[Cross-Disciplinary Collision Engine]]
+
+
+---
+
+## 📊 Dynamic Vertical Registry
+
+```dataview
+TABLE
+  pencil_source AS "Origin Note",
+  status AS "Status",
+  clearance AS "Clearance"
+FROM #vertical
+SORT file.name ASC
+```
+
+## 🔗 Extended Navigation
+- [[00.07 Command Center]]
+- [[Cross-Disciplinary Collision Engine]]
+- [[MOC - Research Pipeline]]
+- [[MOC - Active Projects]]

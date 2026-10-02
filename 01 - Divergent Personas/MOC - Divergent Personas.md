@@ -25,3 +25,33 @@ This cluster maps the four core archetypes of high-agency divergent minds identi
 - **The Acquisition Playbooks:** [[MOC - Outreach Playbooks]]
 - **The 22 Cross-Disciplinary Domains:** [[MOC - Cross-Domain Verticals]]
 - **Vetting Protocol:** [[Proof of Work Gauntlet]]
+
+
+---
+
+## 📊 Dynamic Persona Registry
+
+```dataview
+TABLE
+  persona AS "Persona",
+  target_age AS "Target Age",
+  status AS "Status"
+FROM #persona
+SORT file.name ASC
+```
+
+## 🎖️ Members by Persona
+
+```dataview
+TABLE
+  status AS "Status",
+  persona_affinity AS "Affinity",
+  date_identified AS "Identified"
+FROM #member
+SORT persona_affinity ASC
+```
+
+## 🔗 Extended Navigation
+- [[00.07 Command Center]]
+- [[MOC - Member Roster]]
+- [[Proof of Work Gauntlet]]

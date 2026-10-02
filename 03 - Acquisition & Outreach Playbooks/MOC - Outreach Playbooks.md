@@ -25,3 +25,21 @@ These playbooks translate the Cicada Doctrine and Founder Field Notes into repea
 - [[00.03 Anti-Marketing & The Cicada Doctrine]]
 - [[MOC - Divergent Personas]]
 - [[Proof of Work Gauntlet]]
+
+
+---
+
+## 📊 Dynamic Playbook Registry
+
+```dataview
+TABLE
+  status AS "Status",
+  clearance AS "Clearance"
+FROM #playbook
+SORT file.name ASC
+```
+
+## 🔗 Extended Navigation
+- [[00.07 Command Center]]
+- [[MOC - Member Roster]]
+- [[MOC - Research Pipeline]]

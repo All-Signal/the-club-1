@@ -34,3 +34,18 @@ A live, unsweetened technical interrogation with Council members. No slides. Liv
 - [[The 30-Minute Crucible]]
 - [[00.02 Governance - The Triumvirate]]
 - [[00.01 Manifesto - Sovereign Enclave]]
+
+
+---
+
+## 📊 Candidates in Pipeline
+
+```dataview
+TABLE
+  status AS "Stage",
+  persona_affinity AS "Persona",
+  date_identified AS "Identified"
+FROM #member
+WHERE status != "admitted" AND status != "rejected" AND status != "archived"
+SORT date_identified DESC
+```

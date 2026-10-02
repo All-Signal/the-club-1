@@ -1,5 +1,141 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "d543221e-77cf-4ed2-87a8-d6e25362355f",
+      "name": "New Member Dossier",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99-Templates/Template - Member Dossier.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "06 - Member Intelligence"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "append": false,
+      "openFile": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default"
+    },
+    {
+      "id": "b2bfc3ff-e49b-4160-bd0c-a61bae272f34",
+      "name": "New Research Signal",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99-Templates/Template - Signal Entry.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "07 - Research & Signal Pipeline"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "append": false,
+      "openFile": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default"
+    },
+    {
+      "id": "7253c57a-864b-4091-8892-63f83b479b36",
+      "name": "New War Room Session",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99-Templates/Template - War Room Session.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "08 - War Room & Sessions"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "append": false,
+      "openFile": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default"
+    },
+    {
+      "id": "7b54a677-9474-4cbb-9ca0-360285965e50",
+      "name": "New Active Project",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99-Templates/Template - Project.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "09 - Active Projects & Initiatives"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "append": false,
+      "openFile": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default"
+    },
+    {
+      "id": "d1c13336-a435-4d60-b566-db4e05cb53cd",
+      "name": "New Collision Experiment",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99-Templates/Template - Collision Experiment.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "04 - Operations & Vetting"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "append": false,
+      "openFile": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default"
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,

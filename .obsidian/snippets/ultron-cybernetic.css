@@ -196,3 +196,70 @@
 .side-dock-ribbon-action:hover {
   color: var(--ultron-cyan) !important;
 }
+
+/* ============================================================
+   ULTRON POWER UPGRADE // NEW CALLOUT TYPES
+   ============================================================ */
+
+/* Member Intelligence Callout */
+.callout[data-callout="ul-member"] {
+  --callout-color: 0, 255, 0;
+  --callout-icon: lucide-user-check;
+  border-left: 3px solid rgba(0, 255, 0, 0.7);
+  background: rgba(0, 255, 0, 0.04);
+}
+
+/* Signal / Research Pipeline Callout */
+.callout[data-callout="ul-signal"] {
+  --callout-color: 255, 255, 0;
+  --callout-icon: lucide-radio;
+  border-left: 3px solid rgba(255, 255, 0, 0.7);
+  background: rgba(255, 255, 0, 0.04);
+}
+
+/* Active Project Callout */
+.callout[data-callout="ul-project"] {
+  --callout-color: 255, 0, 255;
+  --callout-icon: lucide-rocket;
+  border-left: 3px solid rgba(255, 0, 255, 0.7);
+  background: rgba(255, 0, 255, 0.04);
+}
+
+/* War Room / Session Callout */
+.callout[data-callout="ul-warroom"] {
+  --callout-color: 255, 100, 0;
+  --callout-icon: lucide-swords;
+  border-left: 3px solid rgba(255, 100, 0, 0.7);
+  background: rgba(255, 100, 0, 0.04);
+}
+
+/* Collision Experiment Callout */
+.callout[data-callout="ul-collision"] {
+  --callout-color: 0, 240, 255;
+  --callout-icon: lucide-atom;
+  border-left: 3px solid rgba(0, 240, 255, 0.8);
+  background: rgba(0, 240, 255, 0.04);
+}
+
+/* Dataview Dashboard Styling */
+.dataview.table-view-table {
+  font-size: 0.85em;
+}
+
+.dataview.table-view-table thead tr th {
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  color: rgba(0, 240, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 240, 255, 0.3);
+}
+
+.dataview.table-view-table tbody tr:hover {
+  background: rgba(0, 240, 255, 0.06);
+}
+
+/* Status badges in Dataview */
+.dataview .status-active { color: #00ff66; font-weight: 600; }
+.dataview .status-pending { color: #ffaa00; font-weight: 600; }
+.dataview .status-archived { color: #666; font-style: italic; }

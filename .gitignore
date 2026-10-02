@@ -1,15 +1,26 @@
-# Obsidian workspace & UI layout caches
+# Obsidian workspace & UI layout caches (device-specific layouts)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
 .obsidian/cache/
+.obsidian/cache
+.obsidian/.trash/
+.trash/
 .obsidian/plugins/obsidian-git/obsidian_askpass.sh
 
 # Local AI embeddings & temporary environment
 .smart-env/
 .claude/
 
-# Temporary / OS files
+# OS metadata & temporary files
 .DS_Store
+Thumbs.db
 *.tmp
+*~
 *.crswap
+
+# Editor & IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo

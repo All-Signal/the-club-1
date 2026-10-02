@@ -1,14 +1,17 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "attachmentFolderPath": "50-Archives/Attachments",
-  "newFileFolderPath": "20-Concepts",
-  "useTab": false,
-  "tabSize": 2,
-  "readableLineLength": true,
-  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": true,
   "foldHeading": true,
   "foldIndent": true,
-  "autoPairMarkdown": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": true,
+  "showLineNumber": true,
+  "showRibbon": true,
+  "spellcheck": false,
+  "tabSize": 2,
+  "useTab": false,
+  "newFileFolderPath": "20-Concepts",
+  "attachmentFolderPath": "50-Archives/Attachments"
 }

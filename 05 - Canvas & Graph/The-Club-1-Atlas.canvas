@@ -21,6 +21,16 @@
       "color": "1"
     },
     {
+      "id": "node_ultron09",
+      "type": "file",
+      "file": "00 - Meta & Manifesto/00.06 Triumvirate Profile - Ultron09.md",
+      "x": -850,
+      "y": -350,
+      "width": 360,
+      "height": 240,
+      "color": "1"
+    },
+    {
       "id": "node_cicada",
       "type": "file",
       "file": "00 - Meta & Manifesto/00.03 Anti-Marketing & The Cicada Doctrine.md",
@@ -109,6 +119,22 @@
       "toNode": "node_governance",
       "toSide": "bottom",
       "label": "Triumvirate Governance"
+    },
+    {
+      "id": "edge_gov_ultron",
+      "fromNode": "node_governance",
+      "fromSide": "left",
+      "toNode": "node_ultron09",
+      "toSide": "right",
+      "label": "Councilor @Ultron09"
+    },
+    {
+      "id": "edge_ultron_p1",
+      "fromNode": "node_ultron09",
+      "fromSide": "bottom",
+      "toNode": "node_p1",
+      "toSide": "top",
+      "label": "Frontier AI PoW Standards"
     },
     {
       "id": "edge_root_cicada",

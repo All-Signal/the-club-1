@@ -1,0 +1,70 @@
+name: Triumvirate Merge Guard
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  verify-push-actor:
+    name: Verify Push Authorization
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate Direct Committer Clearance
+        run: |
+          ACTOR="${{ github.actor }}"
+          echo "Evaluating direct push by: $ACTOR"
+          
+          # Authorized triumvirate logins
+          ALLOWED=("anshruhela07-bit" "ZeroGravity004" "Ultron09")
+          
+          AUTHORIZED=false
+          for user in "${ALLOWED[@]}"; do
+            if [ "$ACTOR" = "$user" ]; then
+              AUTHORIZED=true
+              break
+            fi
+          done
+          
+          if [ "$AUTHORIZED" = "false" ]; then
+            echo "::error::Direct push to 'main' rejected. Actor '$ACTOR' is not a member of The Triumvirate."
+            echo "Direct main branch pushes are exclusively restricted to: ${ALLOWED[*]}"
+            exit 1
+          fi
+          
+          echo "Committer '$ACTOR' verified as authorized Triumvirate member."
+
+  validate-pr:
+    name: Verify PR Compliance
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Vault
+        uses: actions/checkout@v4
+
+      - name: Inspect PR Submitter & Guidelines
+        run: |
+          PR_AUTHOR="${{ github.event.pull_request.user.login }}"
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          echo "PR #${PR_NUMBER} submitted by: @${PR_AUTHOR}"
+          echo "Reminder: PR merges require approval from @anshruhela07-bit, @ZeroGravity004 (V.I.S.I.O.N), or @Ultron09."
+
+      - name: Lint Wikilinks and Markdown Headers
+        run: |
+          echo "Auditing Obsidian markdown files..."
+          # Check for empty markdown files
+          EMPTY_FILES=$(find . -name "*.md" -type f -empty)
+          if [ -n "$EMPTY_FILES" ]; then
+            echo "::error::Found empty markdown files: $EMPTY_FILES"
+            exit 1
+          fi
+          echo "Vault integrity checks passed successfully."

@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "id": "node_root",
+      "type": "file",
+      "file": "00 - Meta & Manifesto/00.00 Index - The Club 1.md",
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 260,
+      "color": "1"
+    },
+    {
+      "id": "node_governance",
+      "type": "file",
+      "file": "00 - Meta & Manifesto/00.02 Governance - The Triumvirate.md",
+      "x": -450,
+      "y": -350,
+      "width": 360,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "node_cicada",
+      "type": "file",
+      "file": "00 - Meta & Manifesto/00.03 Anti-Marketing & The Cicada Doctrine.md",
+      "x": 450,
+      "y": -350,
+      "width": 360,
+      "height": 240,
+      "color": "4"
+    },
+    {
+      "id": "node_p1",
+      "type": "file",
+      "file": "01 - Divergent Personas/01.01 Frontier AI Builders.md",
+      "x": -600,
+      "y": 200,
+      "width": 320,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "node_p2",
+      "type": "file",
+      "file": "01 - Divergent Personas/01.02 Quant & Algo Operators.md",
+      "x": -200,
+      "y": 380,
+      "width": 320,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "node_p3",
+      "type": "file",
+      "file": "01 - Divergent Personas/01.03 System & Low-Level Hackers.md",
+      "x": 200,
+      "y": 380,
+      "width": 320,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "node_p4",
+      "type": "file",
+      "file": "01 - Divergent Personas/01.04 Obsessive Polymaths.md",
+      "x": 600,
+      "y": 200,
+      "width": 320,
+      "height": 220,
+      "color": "5"
+    },
+    {
+      "id": "node_collision",
+      "type": "file",
+      "file": "04 - Operations & Vetting/Cross-Disciplinary Collision Engine.md",
+      "x": 0,
+      "y": 700,
+      "width": 380,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "node_gauntlet",
+      "type": "file",
+      "file": "04 - Operations & Vetting/Proof of Work Gauntlet.md",
+      "x": -450,
+      "y": 700,
+      "width": 340,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "node_crucible",
+      "type": "file",
+      "file": "04 - Operations & Vetting/The 30-Minute Crucible.md",
+      "x": 450,
+      "y": 700,
+      "width": 340,
+      "height": 220,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_root_gov",
+      "fromNode": "node_root",
+      "fromSide": "top",
+      "toNode": "node_governance",
+      "toSide": "bottom",
+      "label": "Triumvirate Governance"
+    },
+    {
+      "id": "edge_root_cicada",
+      "fromNode": "node_root",
+      "fromSide": "top",
+      "toNode": "node_cicada",
+      "toSide": "bottom",
+      "label": "Anti-Marketing Doctrine"
+    },
+    {
+      "id": "edge_root_p1",
+      "fromNode": "node_root",
+      "fromSide": "bottom",
+      "toNode": "node_p1",
+      "toSide": "top",
+      "label": "AI Builders"
+    },
+    {
+      "id": "edge_root_p2",
+      "fromNode": "node_root",
+      "fromSide": "bottom",
+      "toNode": "node_p2",
+      "toSide": "top",
+      "label": "Quant Operators"
+    },
+    {
+      "id": "edge_root_p3",
+      "fromNode": "node_root",
+      "fromSide": "bottom",
+      "toNode": "node_p3",
+      "toSide": "top",
+      "label": "Systems Hackers"
+    },
+    {
+      "id": "edge_root_p4",
+      "fromNode": "node_root",
+      "fromSide": "bottom",
+      "toNode": "node_p4",
+      "toSide": "top",
+      "label": "Polymaths"
+    },
+    {
+      "id": "edge_p_collision",
+      "fromNode": "node_p2",
+      "fromSide": "bottom",
+      "toNode": "node_collision",
+      "toSide": "top",
+      "label": "Cross-Pollination"
+    },
+    {
+      "id": "edge_gauntlet_crucible",
+      "fromNode": "node_gauntlet",
+      "fromSide": "right",
+      "toNode": "node_collision",
+      "toSide": "left",
+      "label": "Vetted Initiates"
+    },
+    {
+      "id": "edge_collision_crucible",
+      "fromNode": "node_collision",
+      "fromSide": "right",
+      "toNode": "node_crucible",
+      "toSide": "left",
+      "label": "Final Vetting"
+    }
+  ]
+}

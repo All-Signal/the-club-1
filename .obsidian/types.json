@@ -1,0 +1,12 @@
+{
+  "types": {
+    "tags": "tags",
+    "aliases": "aliases",
+    "persona": "text",
+    "vertical": "text",
+    "target_age": "text",
+    "status": "text",
+    "tier": "text",
+    "clearance": "text"
+  }
+}

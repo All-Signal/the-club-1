@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "useTab": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "attachments",
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "spellcheck": false,
+  "showRibbon": true
+}

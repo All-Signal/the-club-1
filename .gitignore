@@ -1,0 +1,18 @@
+# Obsidian workspace state (device-specific layouts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/.trash/
+.trash/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo

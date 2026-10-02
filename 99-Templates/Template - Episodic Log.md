@@ -13,7 +13,7 @@ created: "<% tp.file.creation_date('YYYY-MM-DD HH:mm:ss') %>"
 
 > [!ul-telemetry] Telemetry Stamp
 > **Timestamp**: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
-> **Operator**: Suryaansh Singh
+> **Operator**: [CONFIDENTIAL // COUNCIL OPERATOR]
 > **Host**: ASUS TUF Gaming F15 (Arch Linux)
 
 ## 🎯 Directives & Focus

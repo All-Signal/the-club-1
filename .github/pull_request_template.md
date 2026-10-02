@@ -16,4 +16,4 @@
 - [ ] Markdown adheres to unified Obsidian wikilink syntax (`[[Note Name]]`).
 - [ ] Proper YAML frontmatter provided (tags, aliases, status, clearance).
 - [ ] Free of generic corporate buzzwords, vanity metrics, or hype-driven copy.
-- [ ] Understood: PR merge authority is exclusively retained by `@anshruhela07-bit`, `@ZeroGravity004` (V.I.S.I.O.N), and `@Ultron09`.
+- [ ] Understood: PR merge authority is exclusively retained by The Sovereign Triumvirate (Tier-0 Council).

@@ -31,9 +31,9 @@
       "color": "1"
     },
     {
-      "id": "node_ultron09",
+      "id": "node_council_node_03",
       "type": "file",
-      "file": "00 - Meta & Manifesto/00.06 Triumvirate Profile - Ultron09.md",
+      "file": "00 - Meta & Manifesto/00.06 Triumvirate Profile - Council Node 03.md",
       "x": -850,
       "y": -350,
       "width": 360,
@@ -142,13 +142,13 @@
       "id": "edge_gov_ultron",
       "fromNode": "node_governance",
       "fromSide": "left",
-      "toNode": "node_ultron09",
+      "toNode": "node_council_node_03",
       "toSide": "right",
-      "label": "Councilor @Ultron09"
+      "label": "Councilor Council Node 03"
     },
     {
       "id": "edge_ultron_p1",
-      "fromNode": "node_ultron09",
+      "fromNode": "node_council_node_03",
       "fromSide": "bottom",
       "toNode": "node_p1",
       "toSide": "top",

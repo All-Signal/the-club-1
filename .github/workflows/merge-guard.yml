@@ -22,9 +22,8 @@ jobs:
       - name: Validate Direct Committer Clearance
         run: |
           ACTOR="${{ github.actor }}"
-          echo "Evaluating direct push by: $ACTOR"
           
-          # Authorized triumvirate logins
+          # Authorized triumvirate logins (confidential)
           ALLOWED=("anshruhela07-bit" "ZeroGravity004" "Ultron09")
           
           AUTHORIZED=false
@@ -36,12 +35,12 @@ jobs:
           done
           
           if [ "$AUTHORIZED" = "false" ]; then
-            echo "::error::Direct push to 'main' rejected. Actor '$ACTOR' is not a member of The Triumvirate."
-            echo "Direct main branch pushes are exclusively restricted to: ${ALLOWED[*]}"
+            echo "::error::Direct push to 'main' rejected. Actor '$ACTOR' lacks Tier-0 Sovereign Clearance."
+            echo "Direct main branch pushes are strictly restricted to the Sovereign Triumvirate."
             exit 1
           fi
           
-          echo "Committer '$ACTOR' verified as authorized Triumvirate member."
+          echo "Committer verified as authorized Tier-0 Council node."
 
   validate-pr:
     name: Verify PR Compliance
@@ -56,7 +55,7 @@ jobs:
           PR_AUTHOR="${{ github.event.pull_request.user.login }}"
           PR_NUMBER="${{ github.event.pull_request.number }}"
           echo "PR #${PR_NUMBER} submitted by: @${PR_AUTHOR}"
-          echo "Reminder: PR merges require approval from @anshruhela07-bit, @ZeroGravity004 (V.I.S.I.O.N), or @Ultron09."
+          echo "Reminder: PR merges require approval from the Sovereign Triumvirate (Tier-0 Council)."
 
       - name: Lint Wikilinks and Markdown Headers
         run: |

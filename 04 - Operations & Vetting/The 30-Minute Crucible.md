@@ -15,7 +15,7 @@ The Crucible is the final clearance gate before admission into **THE CLUB 1**. I
 
 1. **No Slides, No Decks:** Candidates are strictly forbidden from presenting slide presentations or pitch decks.
 2. **Terminal & Code Only:** Screen-share must display an active terminal, IDE, or architectural white-board.
-3. **Interruptive Stress-Testing:** Council members (`@anshruhela07-bit`, `V.I.S.I.O.N`, or [[00.06 Triumvirate Profile - Ultron09|`@Ultron09`]]) will deliberately probe edge cases, questioning assumptions down to assembly instructions or microsecond latency penalties.
+3. **Interruptive Stress-Testing:** Council members (The Sovereign Triumvirate) will deliberately probe edge cases, questioning assumptions down to assembly instructions or microsecond latency penalties.
 4. **Failure Tolerance:** We do not penalize being wrong on an obscure edge case; we immediately disqualify candidates who attempt to bullshit, evade, or speak in vague generalities.
 
 ---
@@ -29,7 +29,7 @@ The Crucible is the final clearance gate before admission into **THE CLUB 1**. I
 ---
 
 ## 🔗 Related Notes
-- [[00.06 Triumvirate Profile - Ultron09]]
+- [[00.06 Triumvirate Profile - Council Node 03]]
 - [[00.02 Governance - The Triumvirate]]
 - [[Proof of Work Gauntlet]]
 - [[Cross-Disciplinary Collision Engine]]

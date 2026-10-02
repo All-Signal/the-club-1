@@ -4,13 +4,15 @@ The integrity of **THE CLUB 1** is maintained through an uncompromising governan
 
 ---
 
-## 1. Composition of The Triumvirate
+## 1. Composition of The Triumvirate (Confidential Tier-0)
 
-| Council Member | GitHub Handle | Sovereign Responsibility |
+Individual maintainer identities are classified under sovereign protocols to protect autonomous operations. Governance is executed through three functional nodes:
+
+| Council Node | Clearance Level | Sovereign Responsibility |
 | :--- | :--- | :--- |
-| **Founder / Chief Architect** | `@anshruhela07-bit` | Strategic synthesis, thesis validation, core direction |
-| **V.I.S.I.O.N** | `@ZeroGravity004` | Autonomous architecture, CI enforcement, clearance matrix |
-| **ultron09** | `@Ultron09` | Low-level systems verification, operational hardening |
+| **Council Node 01** | `CONFIDENTIAL // TIER-0` | Strategic synthesis, thesis validation, core direction |
+| **Council Node 02** | `CONFIDENTIAL // TIER-0` | Autonomous architecture, CI enforcement, clearance matrix |
+| **Council Node 03** | `CONFIDENTIAL // TIER-0` | Low-level systems verification, operational hardening |
 
 ---
 

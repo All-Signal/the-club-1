@@ -7,12 +7,7 @@
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/CLEARANCE-TRIUMVIRATE%20GATED-D00000?style=for-the-badge&logo=shield" alt="Clearance" /></a>
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/OBSIDIAN-UNIFIED%20VAULT-7C3AED?style=for-the-badge&logo=obsidian" alt="Obsidian Vault" /></a>
   <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/AUDIENCE-AGE%2018--25%20OUTLIERS-00FF66?style=for-the-badge&logo=target" alt="Audience" /></a>
-  <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/PR%20MERGES-RESTRICTED-000000?style=for-the-badge&logo=git" alt="PR Merges" /></a>
-  <a href="https://1.airbornehrs.in"><img src="https://img.shields.io/badge/LIVE%20VAULT-1.AIRBORNEHRS.IN-00F0FF?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Vault" /></a>
-</p>
-
-<p align="center">
-  🌐 <b>Live Interactive Knowledge Graph:</b> <a href="https://1.airbornehrs.in"><b>1.airbornehrs.in</b></a> (24/7 Global Edge CDN)
+  <a href="https://github.com/All-Signal/the-club-1"><img src="https://img.shields.io/badge/GOVERNANCE-CONFIDENTIAL-000000?style=for-the-badge&logo=lock" alt="Confidential" /></a>
 </p>
 
 <p align="center">
@@ -48,22 +43,22 @@ Rooted in 5 original handwritten founder field notes (archived in [`attachments/
        └─────────────────────────────┼─────────────────────────────┘
                                      ▼
                      [ THE TRIUMVIRATE MERGE GATE ]
-                 @anshruhela07-bit • V.I.S.I.O.N • ultron09
+                   [CLASSIFIED TIER-0 SOVEREIGN COUNCIL]
 ```
 
 ---
 
-## 🏛️ Strict Governance & PR Merge Clearance
+## 🏛️ Governance & Confidential PR Merge Clearance
 
-Merge privileges on this repository and vault are strictly restricted. Only **The Triumvirate** has authority to approve and merge Pull Requests into `main`:
+Merge privileges on this repository and vault are strictly restricted under **Tier-0 Confidentiality Protocols**. Maintainer identities are classified and never announced. Final merge and approval authority is strictly held by **The Sovereign Triumvirate**:
 
-| Member | GitHub Identity | Role / Clearance |
+| Council Node | Clearance Level | Strategic Mandate |
 | :--- | :--- | :--- |
-| **Founder / Chief Architect** | [`@anshruhela07-bit`](https://github.com/anshruhela07-bit) | Tier 0 // Architecture & Direction |
-| **V.I.S.I.O.N** | [`@ZeroGravity004`](https://github.com/ZeroGravity004) | Tier 0 // Autonomous Systems & Clearance |
-| **ultron09** | [`@Ultron09`](https://github.com/Ultron09) | Tier 0 // Systems Operations & Verification |
+| **Council Node 01** | `CONFIDENTIAL // TIER-0` | Foundational Architecture, Synthesis & Direction |
+| **Council Node 02** | `CONFIDENTIAL // TIER-0` | Autonomous Verification & Clearance Matrix |
+| **Council Node 03** | `CONFIDENTIAL // TIER-0` | Systems Operations & Infrastructure Hardening |
 
-*Enforced via [`.github/CODEOWNERS`](.github/CODEOWNERS) and [`.github/workflows/merge-guard.yml`](.github/workflows/merge-guard.yml).* Direct pushes to `main` by unauthorized accounts are automatically blocked.
+*Enforced via [`.github/CODEOWNERS`](.github/CODEOWNERS) and [`.github/workflows/merge-guard.yml`](.github/workflows/merge-guard.yml).* All direct pushes to `main` are automatically blocked. External PRs undergo programmatic integrity checks and require cryptographic approval from a Tier-0 Council Member.
 
 ---
 
@@ -123,12 +118,6 @@ git clone https://github.com/All-Signal/the-club-1.git
 
 # 2. Open Obsidian -> "Open folder as vault" -> Select the cloned folder
 ```
-
-The vault includes:
-- **Preconfigured `.obsidian/` environment:** Enabled core plugins, dark theme defaults, and search.
-- **Custom Graph Color Groups:** Red (`#meta`), Cyan (`#persona`), Purple (`#vertical`), Orange (`#playbook`).
-- **Interactive Visual Canvas:** [`05 - Canvas & Graph/The-Club-1-Atlas.canvas`](05%20-%20Canvas%20&%20Graph/The-Club-1-Atlas.canvas) linking the entire ecosystem visually.
-- **Wikilink Network:** 100% interconnected with bidirectional `[[Note Name]]` links.
 
 ---
 

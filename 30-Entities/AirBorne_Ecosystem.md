@@ -15,20 +15,20 @@ tags:
 # ✈️ AirBorne & AirborneHRS Enterprise Ecosystem
 
 ## 🌐 Overview
-**AirBorne / AirborneHRS** is an enterprise-grade talent intelligence, Human Resource Management System (HRMS), and recruitment platform architected and developed by [[Operator_Profile|Suryaansh Prithvijit Singh]].
+**AirBorne / AirborneHRS** is an enterprise-grade talent intelligence, Human Resource Management System (HRMS), and recruitment platform architected and developed by [[Operator_Profile|[CONFIDENTIAL // COUNCIL OPERATOR]]].
 
 ---
 
 ## 🏗️ Architecture & Subsystems
-- **Core Platform**: `Ultron09/AirBorneHRS`
-- **Next-Gen HR & CRM**: `Ultron09/SkyforceHR` & `Ultron09/skyforce-crm`
-- **Super-Admin Governance**: `Ultron09/HRMS_super_admin` & `Ultron09/HRMS-AirBorneHRS` (multi-tenant administration, granular permission matrices, client reporting)
-- **Recruitment & ATS Engine**: `Ultron09/Recruit` (AI-driven candidate screening, automated resume evaluation, applicant funnel orchestration)
-- **Marketing & Media Engine**: `Ultron09/Airborne_marketing` & `Ultron09/Marketing` (automated video reel generation, interactive feature showcases)
-- **Interactive Showcase**: `Ultron09/Features`
+- **Core Platform**: `AirBorneHRS`
+- **Next-Gen HR & CRM**: `SkyforceHR` & `skyforce-crm`
+- **Super-Admin Governance**: `HRMS_super_admin` & `HRMS-AirBorneHRS` (multi-tenant administration, granular permission matrices, client reporting)
+- **Recruitment & ATS Engine**: `Recruit` (AI-driven candidate screening, automated resume evaluation, applicant funnel orchestration)
+- **Marketing & Media Engine**: `Airborne_marketing` & `Marketing` (automated video reel generation, interactive feature showcases)
+- **Interactive Showcase**: `Features`
 
 ---
 
 ## 🔗 Linked Obsidian Notes
 - [[Operator_Profile]]
-- [[GitHub_Portfolio_Ultron09]]
+- [[GitHub_Portfolio_Council_Node_03]]

@@ -6,12 +6,9 @@ Thank you for contributing intelligence to **THE CLUB 1**. We operate under stri
 
 ## 🏛️ PR Clearance & Merge Authority
 
-All pull requests are reviewed under the supervision of **The Triumvirate**:
-- `@anshruhela07-bit` (Founder / Chief Architect)
-- `@ZeroGravity004` (V.I.S.I.O.N)
-- `@Ultron09` (ultron09)
+All pull requests are reviewed under the supervision of **The Sovereign Triumvirate (Tier-0 Council)**. Maintainer identities remain strictly confidential and sovereign.
 
-Only one of these three accounts possesses final merge clearance. External PRs are welcome, but will be held to the highest standard of proof of work.
+Only authorized Tier-0 Council signatures possess final merge clearance. External PRs are welcome, but will be held to the highest standard of proof of work.
 
 ---
 
@@ -42,4 +39,4 @@ Only one of these three accounts possesses final merge clearance. External PRs a
    - `fix/<issue>`
 2. Follow the [Pull Request Template](.github/pull_request_template.md).
 3. Automated CI will verify that markdown files are non-empty and formatted properly.
-4. Request review from `@anshruhela07-bit`, `@ZeroGravity004`, or `@Ultron09`.
+4. Request review from the repository Codeowners.

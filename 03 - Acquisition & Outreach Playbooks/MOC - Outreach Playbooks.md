@@ -21,6 +21,9 @@ These playbooks translate the Cicada Doctrine and Founder Field Notes into repea
 
 ---
 
+## 📚 Foundation Case Study
+- **[[Case Study - The Cicada 3301 Blueprint]]** — Complete historical deconstruction, cognitive triggers, failure-mode mitigations, and the modern 4-track blueprint for The Club 1.
+
 ## 🔗 Related Notes
 - [[00.03 Anti-Marketing & The Cicada Doctrine]]
 - [[MOC - Divergent Personas]]
